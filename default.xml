@@ -9,7 +9,7 @@
            review="review.cyanogenmod.org" />
 
   <remote name="Crossbones"
- fetch="git://github.com/Crossbones/" /> 
+ fetch="git://github.com/crossbones/" /> 
 
   <remote name="private"
            fetch="ssh://git@github.com" />
@@ -17,7 +17,7 @@
   <default revision="refs/heads/cm-10.1"
            remote="github"
            sync-c="true"
-           sync-j="4" />
+           sync-j="3" />
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
